@@ -12,8 +12,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: list files
-        run: ls
+      - name: Readme
+        run: cat README.md
 
       - name: List Files
         run: ls
